@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400911E328CE1F3900C81DCD /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400911E228CE1F3900C81DCD /* PostCardView.swift */; };
 		405B04A128CE19D600E8BA25 /* SwiftUI_DynamicGridListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B04A028CE19D600E8BA25 /* SwiftUI_DynamicGridListApp.swift */; };
 		405B04A328CE19D600E8BA25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B04A228CE19D600E8BA25 /* ContentView.swift */; };
 		405B04A828CE19D700E8BA25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405B04A728CE19D700E8BA25 /* Preview Assets.xcassets */; };
 		405B04AF28CE1A0400E8BA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405B04AE28CE1A0400E8BA25 /* Assets.xcassets */; };
+		405B04B228CE1C0C00E8BA25 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B04B128CE1C0C00E8BA25 /* Home.swift */; };
+		405B04B428CE1C7600E8BA25 /* DynamicGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B04B328CE1C7600E8BA25 /* DynamicGrid.swift */; };
+		405B04B728CE1DC000E8BA25 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B04B628CE1DC000E8BA25 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400911E228CE1F3900C81DCD /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 		405B049D28CE19D600E8BA25 /* SwiftUI_DynamicGridList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_DynamicGridList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405B04A028CE19D600E8BA25 /* SwiftUI_DynamicGridListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DynamicGridListApp.swift; sourceTree = "<group>"; };
 		405B04A228CE19D600E8BA25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		405B04A728CE19D700E8BA25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		405B04AE28CE1A0400E8BA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		405B04B128CE1C0C00E8BA25 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		405B04B328CE1C7600E8BA25 /* DynamicGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicGrid.swift; sourceTree = "<group>"; };
+		405B04B628CE1DC000E8BA25 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		405B049F28CE19D600E8BA25 /* SwiftUI_DynamicGridList */ = {
 			isa = PBXGroup;
 			children = (
+				405B04B528CE1DB400E8BA25 /* Model */,
+				405B04B028CE1C0300E8BA25 /* View */,
 				405B04A028CE19D600E8BA25 /* SwiftUI_DynamicGridListApp.swift */,
 				405B04A228CE19D600E8BA25 /* ContentView.swift */,
 				405B04AE28CE1A0400E8BA25 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				405B04A728CE19D700E8BA25 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		405B04B028CE1C0300E8BA25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				405B04B128CE1C0C00E8BA25 /* Home.swift */,
+				405B04B328CE1C7600E8BA25 /* DynamicGrid.swift */,
+				400911E228CE1F3900C81DCD /* PostCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		405B04B528CE1DB400E8BA25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				405B04B628CE1DC000E8BA25 /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400911E328CE1F3900C81DCD /* PostCardView.swift in Sources */,
 				405B04A328CE19D600E8BA25 /* ContentView.swift in Sources */,
+				405B04B228CE1C0C00E8BA25 /* Home.swift in Sources */,
 				405B04A128CE19D600E8BA25 /* SwiftUI_DynamicGridListApp.swift in Sources */,
+				405B04B428CE1C7600E8BA25 /* DynamicGrid.swift in Sources */,
+				405B04B728CE1DC000E8BA25 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
