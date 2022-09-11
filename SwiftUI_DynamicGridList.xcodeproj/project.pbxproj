@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		405B04A128CE19D600E8BA25 /* SwiftUI_DynamicGridListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B04A028CE19D600E8BA25 /* SwiftUI_DynamicGridListApp.swift */; };
 		405B04A328CE19D600E8BA25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B04A228CE19D600E8BA25 /* ContentView.swift */; };
-		405B04A528CE19D700E8BA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405B04A428CE19D700E8BA25 /* Assets.xcassets */; };
 		405B04A828CE19D700E8BA25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405B04A728CE19D700E8BA25 /* Preview Assets.xcassets */; };
+		405B04AF28CE1A0400E8BA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405B04AE28CE1A0400E8BA25 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		405B049D28CE19D600E8BA25 /* SwiftUI_DynamicGridList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_DynamicGridList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405B04A028CE19D600E8BA25 /* SwiftUI_DynamicGridListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DynamicGridListApp.swift; sourceTree = "<group>"; };
 		405B04A228CE19D600E8BA25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		405B04A428CE19D700E8BA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		405B04A728CE19D700E8BA25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		405B04AE28CE1A0400E8BA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				405B04A028CE19D600E8BA25 /* SwiftUI_DynamicGridListApp.swift */,
 				405B04A228CE19D600E8BA25 /* ContentView.swift */,
-				405B04A428CE19D700E8BA25 /* Assets.xcassets */,
+				405B04AE28CE1A0400E8BA25 /* Assets.xcassets */,
 				405B04A628CE19D700E8BA25 /* Preview Content */,
 			);
 			path = SwiftUI_DynamicGridList;
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405B04AF28CE1A0400E8BA25 /* Assets.xcassets in Resources */,
 				405B04A828CE19D700E8BA25 /* Preview Assets.xcassets in Resources */,
-				405B04A528CE19D700E8BA25 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
