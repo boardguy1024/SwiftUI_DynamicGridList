@@ -13,6 +13,8 @@ struct Home: View {
     
     @State var columns: Int = 2
     
+    @Namespace var animation: Namespace.ID
+    
     var body: some View {
         
         NavigationView {
@@ -20,6 +22,7 @@ struct Home: View {
             DynamicGrid(columns: columns, list: posts, content: { post in
                 
                 PostCardView(post: post)
+                    .matchedGeometryEffect(id: post.id, in: animation)
             })
                 .navigationTitle("Dynamic Grid List")
                 .toolbar {
@@ -42,6 +45,7 @@ struct Home: View {
                         }
                     }
                 }
+                .animation(.easeInOut, value: columns)
                
         }
         .onAppear {
